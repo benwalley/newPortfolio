@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Make Ascii text Art</title>
+
+	
+
+	<link rel="stylesheet" media="screen and (min-device-width: 991px)" href="css/Pic.css" />
+	<link rel="stylesheet" media="screen and (max-device-width: 990px)" href="css/smallPic.css" />
+
+<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script> 
+
+
+
+</head>
+<body>
+	<div id = "nav">
+		<a id = "logo" href="../">Yo-Bro Studios</a>
+	</div>
+
+
+<div id = "adjust">
+	<textarea name="textarea" id = "text" rows="10" cols="50">This is an example of how                                          
+to do it.                          <--.
+                                     \  \
+                                .-----\  \
+                               ``__7      \--__
+                            .--`               ``--_
+                         .-`                        `.
+                       .`                              `.
+                     .`                                  `.
+                   .`                                      `
+                  .`                                        \
+                 /     .--                      _             \
+                 /    /                          `-           \
+                /                                  \           \
+                |                                              ||
+                |                                               |_
+   .-.__..     ./                                                ```--__
+  | C==_7|   /` |    .--`                      ---.                     `-_
+   \   ` |  /  _-|   .-`.`-.                .--==..`           ...         `-
+    \    \ /  /  |  /  /==\\              /   /_`_\\          /    `--.      `.
+                                       
+ </textarea>
+	
+
+		<label>Font Size: </label>
+		<input type="range" id="weight" min="1" value="15" max="50" step="1" onChange="fontSize()">
+
+
+<div>
+	<button id = "white">White background</button>
+	<input type = "color" id = "color">
+	<button id = "useColor">pick color</button>
+	</div>
+</div>
+
+	<div id = "optionPics">
+		<div class = "optionPics"><img class = "optionPic" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-Lpkjb7U6heCpQBl71mTOoelAvBfVuHh95a480i6fOcWlUx74zw" width = "100%" 
+			></div>
+		<div class = "optionPics"><img class = "optionPic" src="http://www.raisingourkids.com/coloring-pages/animal/flower/free/007-free-coloring-sheets-roses.gif" width = "100%" ></div>
+		<div class = "optionPics"><img class = "optionPic" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSGGTUN1RGE-itWJRv_LVJrYhx01kF0Uu-5MjOp9DPlVLxt560B5g" width = "100%" ></div>
+		<div class = "optionPics"><img class = "optionPic" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQD3uVU6lfJU5ZRscDOZPKWi6Sy1A4tcOX36lV7Qhp_OP4HH8Mw" width = "100%" ></div>
+		<div class = "optionPics"><img class = "optionPic" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTs4xZfjKbVdgXGsYyrfxXiur_wTClk7-Wu6Ler2wW3rtOTeeHb" width = "100%" ></div>
+		<div class = "optionPics"><img   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUZdAahbFpMkwgSgb-2UU3k0gnbrT021DIlyCF6wl04Y3e9wfrhg" width = "100%" class = "optionPic"></div>
+		<input type = "text" placeholder = "or use image url" id = "url">
+		<button id = "useUrl">Use URL</button>
+
+
+		<div id = "hints">
+			<p>How to use</p>
+			<p>type over the drawing, using whatever characters you can, to best fill in the black lines</p>
+			<p>hint:</p><p>     the characters  , . - _ =  / \ ` | are often very useful</p>
+		</div>
+	</div>
+
+	<script type="text/javascript" src = "js/pic.js"></script>
+</body>
+</html>

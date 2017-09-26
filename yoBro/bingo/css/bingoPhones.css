@@ -1,0 +1,158 @@
+#h1 {
+	text-align:center;
+	background:#dc1212;
+		background:linear-gradient(#dc1212,darkred, #dc1212 ); 
+
+	color:white;
+	margin:0;
+	height:100px;
+	padding-top:30px;
+	font-size:5vw;
+	text-shadow:3px 3px 3px black;
+}
+body{
+	margin:0;
+}
+
+button{
+	width:19%;
+	margin:0;
+	background:none;
+	border:none;
+	outline:none;
+
+}
+
+button:hover{
+	color:black;
+}
+
+
+.square {
+	 box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	width:20%;
+	height:16%;
+	display:block;
+	float:left;
+	border:1px solid black;
+	text-align:center;
+	padding-top:2%;
+	font-size:3vw;
+}
+.container {
+	
+}
+
+.square:hover {
+	background:red;
+	color:white;
+}
+
+.red {
+	background:red;
+	color:white;
+}
+
+
+.board {
+	
+	height:30vh;
+	
+	margin-bottom:5%;
+	float:left;
+	
+}
+
+
+.topSquare {
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	width:20%;
+	height:20%;
+	display:block;
+	background:#dc1212;
+	float:left;
+	border:1px solid black;
+	text-align:center;
+	font-size:2.5vw;
+	padding-top:2px;
+	color:white;
+	
+}
+
+
+#cardNum {
+	width:100%;
+	height:30px;
+
+	padding-left:0;
+	color:brown;
+
+}
+
+#gameOptions{
+	background:#dc1212;
+	width:100%;
+	height:30px;
+	margin-bottom:5px;
+	padding-left:0;
+	color:white;
+
+
+}
+
+#hint{
+	padding-left:20px;
+
+}
+
+#pickedLetterNumber {
+	font-size:8vw;
+	text-align:center;
+	padding-top:20px;
+	font-weight:bold;
+	width:50%;
+	margin:0%;
+	
+}
+
+.gameButtons{
+	width:32%;
+
+}
+
+.numDisplay{
+
+	height:100px;
+	float:left;
+	border:none;
+	width:50%;
+
+
+}
+#ranges{
+	width:50%;
+	float:right;
+		background:grey;
+	border-radius:5px;
+	padding:5px;
+}
+#instructions{
+	width:50%;
+	margin:0;
+	}
+#nu{
+	width:50%;
+	float:left;
+	text-align:center;
+}
+
+#left{
+	float:left;
+}
+#right{
+	float:right;
+}

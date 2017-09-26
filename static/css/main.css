@@ -1,0 +1,198 @@
+.aboutBody{
+	width:80vw;
+	margin-left:10vw;
+	height:100%;
+	float:left;
+	padding-top:5vh;
+}
+
+body{
+	background:#bdbdbd;
+	overflow-x:hidden;
+	font-family: 'Lato', sans-serif;
+}
+
+.aboutTitle{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	margin:4vw;
+	margin-bottom:8vh;
+	font-size:4.5vw;
+	color:#383838;
+	text-shadow: 2px 2px 4px rgba(0,0,0,.44);
+}
+
+.aboutText{
+	font-family: 'Lato', sans-serif;
+	font-size:1.4vw;
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+.aboutImage{
+	width:40%;
+	margin-right:2vw;
+	margin-bottom:1vw;
+	box-shadow:2px 2px 6px rgba(0,0,0,.44);
+	border-radius:5px;
+}
+
+.contactInfo{
+	width:60%;
+	margin-left:20%;
+	border:1px solid black;
+	border-radius:10px;
+	padding:2vw;
+	background:#dedede;
+}
+
+.contactDetail{
+	padding:1vw;
+	font-size:1.3vw;
+	color:#424242;
+	font-weight:600;
+
+}
+
+.contactInside{
+	color:#213758;
+	font-weight: 400;
+}
+
+.project{
+	
+
+	padding-top:3vw;
+	padding-bottom:7vw;
+	display: inline-block;
+
+}
+
+.projectsBody{
+		background:#fffefb ;
+
+}
+
+.project:nth-of-type(odd){
+	background:#dff1ff;
+}
+.project:nth-of-type(even){
+	background:#fbfbfb ;
+}
+
+.projectTitle{
+	float:left;
+	text-align:center;
+	font-size:4vw;
+	font-weight:600;
+	padding:1vw;
+	width:100%;
+}
+
+
+
+.projectDescript{
+	width:100%;
+	float:left;
+	text-align:center;
+	font-size:1.4vw;
+}
+
+.laptop{
+	margin:2vw;
+	margin-left:5vw;
+}
+
+
+.video{
+	width:28.7vw;
+	height:16vw;
+	margin:2%;
+	float:left;
+	border-radius:.2vw;
+	box-shadow: 3px 3px 8px 0px rgba(0,0,0,.44);
+
+}
+
+.acting{
+	margin-top:5vw;
+	width:100%;
+	float:left;
+	background:#5F2525;
+	/*background:linear-gradient(0deg, #ffffff, #793c3c);*/
+	/*box-shadow: 0px 0px 12px 2px rgba(0,0,0,.44);*/
+
+}
+
+.actingTitle{
+	color:black;
+}
+
+.origamiImage{
+	width:44vw;
+	height:32vw;
+	float:left;
+	margin:2.6vw;
+	border-radius:.6vw;
+	box-shadow:3px 3px 8px 0px rgba(0,0,0,.44);
+}
+
+.origami{
+	background:#517A51;
+	float:left;
+	/*box-shadow:0px 0px 12px 2px rgba(0,0,0,.44);*/
+
+}
+ 
+.origamiTall{
+	padding-left:5vw;
+	padding-right:5vw;
+	background:#1d1d1d;
+	width:34vw;
+}
+
+.second{
+	color:white;
+	padding-left:3vw;
+	padding-right:3vw;
+}
+
+.displayLink{
+	margin-left:2vw;
+	float:left;
+	width:50%;
+
+}
+
+.externalLinks{
+	margin-top:5vw;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.origamiDescription{
+	float:left;
+	text-align:center;
+	width:100%;
+	margin:0;
+	font-size:1.0em;
+	color:white;
+	letter-spacing: .9px;
+	/*text-decoration:underline;*/
+	font-weight:400;
+}
+
+.origamiSection{
+	width:49vw;
+	float:left;
+	overflow:hidden;
+
+}

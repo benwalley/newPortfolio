@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Play tanks</title>
+
+	<link rel="stylesheet" type="text/css" href="css/tanks.css">
+
+	<link rel="stylesheet" media="screen and (min-device-width: 991px)" href="css/tanks.css" />
+	<link rel="stylesheet" media="screen and (max-device-width: 990px)" href="css/smallTanks.css" />
+
+
+	<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/components/progress.min.css">
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+</head>
+<body>
+	
+
+	<h1 class = "white">Play Tanks!!</h1>
+
+		<div class = "container" >
+			<div class = "row" id = "toolbar">
+				<div class = "col-md-2 col-sm-3 data" id = "moneyAmount">$45,000</div>
+				<div class = "col-md-2 col-sm-3 data" id = "armor">Armor: 100</div>
+				<select onchange="pickWeapon()" name="weapons" class = "col-md-3 col-sm-6 data" id = 'weapons'>
+  					<option value="0" ><span class = "quantity">10</span> - cannonball</option>
+  					<option value="1"><span class = "quantity">5</span> - lg cabbonball </option>  					
+  					<option value="2"><span class = "quantity">5</span> - missile </option>
+  					<option value="3"><span class = "quantity">5</span> - sm bomb </option>
+  					<option value="4"><span class = "quantity">5</span> - lg bomb </option>
+  					<option value="5"><span class = "quantity">1</span> - hygrogen bomb </option>
+				</select>
+				<div class = "col-md-2 col-sm-6 powerNum data" >Power: <span id="range">0</span></div>
+				<div class = "col-md-3 col-sm-6 data" id = "powerDiv">
+					<input id = "power" type="range" min="0" max="175" value="0" onchange="showValue(this.value)" />
+				</div>
+			</div>
+		</div>
+
+		<hr id = "forSmall">
+
+
+
+
+	<div id = "lifeBars">
+		<div class = "container">
+			<div class = "row">
+				<div class = "col-sm-4 col-md-4">
+					<progress id="health1" class = "health" value="43" max="100" ></progress>
+				</div>
+				<div class = "col-sm-4 col-md-4">
+					<h2 class = "white" >Player <span id = "playerNum">1</span></h2>
+				</div>
+				<div class ="col-sm-4">
+					<progress id="health2" class = "health" value="43" max="100"></progress>
+				</div>
+			</div>
+		</div>
+   </div>
+
+
+	<canvas id="myCanvas"></canvas>
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-sm-12 col-md-4">
+				<input id = "angle" type="range" min="0" max="90" value="0" onchange="changeAngle(this.value)" />
+			</div>
+			<button id = "fire1" class = "fireButtons col-md-4 col-sm-12">FIRE</button>
+			<div id = "arrows" class = "col-md-4 col-sm-12">
+				<div class = "arrows blank"></div>
+				<button class = "arrows u" id = "u">U</button>
+				<div class = "arrows blank"></div>
+				<button class = "arrows l" id = "l">L</button>
+				<button class = "arrows d" id = "d">D</button>
+				<button class = "arrows r" id  "r">R</button>
+			</div>
+		</div>	
+	</div>
+	<div id = "buyContainer">
+		<div id = "buying">
+			<h2 id = "buyTitle">Buy Supplies</h2>
+			<hr>
+			<p class = "" id = "money">Money remaining - $45,000</p>
+			<button class = "buying buy">cannonball <span class = "cost">$300</span></button>
+			<button class = "buying buy">lg cannonball <span class = "cost">$500</span></button>
+			<button class = "buying buy">missile <span class = "cost">$2,000</span></button>
+			<button class = "buying buy">sm bomb <span class = "cost">$3,000</span></button>
+			<button class = "buying buy">lg bomb <span class = "cost">$5,000</span></button>
+			<button class = "buying buy">hydrogen bomb <span class = "cost">$30,000</span></button>
+			<button class = "buying">+10 armor <span class = "cost">$10,000</span></button>
+			<button class = "buying">+10 health <span class = "cost">$5,000</span></button>
+
+		</div>
+	</div>
+
+<script type="text/javascript" src = "js/tanks.js"></script>
+</body>
+</html>

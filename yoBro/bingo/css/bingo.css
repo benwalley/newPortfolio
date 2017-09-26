@@ -1,0 +1,155 @@
+#h1 {
+	text-align:center;
+	background:#dc1212;
+	background:linear-gradient(#dc1212,darkred, #dc1212 ); 
+	color:white;
+	margin:0;
+	height:150px;
+	padding-top:30px;
+	font-size:5vw;
+	text-shadow:3px 3px 3px black;
+}
+body{
+	margin:0;
+
+	
+}
+
+
+button{
+	width:10%;
+	margin:0;
+	background:none;
+	border:none;
+	font-size:3vw;
+	padding-top:2px;
+	color:white;
+	outline:none;
+}
+
+button:hover{
+	color:brown;
+/*	border-top:2px solid red;
+	padding-top:0;*/
+}
+
+#speedNum{
+	border:2px solid black;
+	border-radius:5px;
+	padding:5px;
+	background:red;
+	color:black;
+}
+.square {
+	 box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	width:20%;
+	height:16%;
+	display:block;
+	float:left;
+	border:1px solid black;
+	text-align:center;
+	padding-top:2%;
+	font-size:2vw;
+	background:white;
+
+}
+.container {
+	
+}
+
+#right{
+	float:right;
+}
+#left{
+	float:left;
+}
+
+
+.square:hover {
+	background:red;
+	color:white;
+}
+
+.red {
+	background:red;
+	color:white;
+}
+
+.board {
+	
+	height:24vw;
+	margin-bottom:10px;
+	margin-top:10px;
+	float:left;
+
+
+}
+
+.topSquare {
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	width:20%;
+	height:20%;
+	display:block;
+	background:white;
+	float:left;
+	border:1px solid black;
+	text-align:center;
+	font-size:2.5vw;
+	padding-top:2px;
+	color:white;
+	background:#dc1212;
+		text-shadow:2px 2px 2px grey;
+
+}
+#wholeOptions{
+	width:100%;
+	padding-left:10%;
+	background:black;
+}
+.destroy {
+	width:0;
+	height:0;
+}
+
+#options {
+	width:100%;
+	height:30px;
+	margin-bottom:5px;
+	padding-left:10%;
+	color:brown;
+}
+
+#hint{
+	padding-left:20px;
+
+}
+
+#pickedLetterNumber {
+	font-size:6vw;
+	text-align:center;
+	padding-top:30%;
+	color:black;
+}
+
+.numDisplay{
+	float:left;
+	height:30vh;
+	float:left;
+
+
+}
+.opt{
+	color:white;
+}
+#instructions{
+	font-size:2vw;
+}
+#ranges{
+	background:grey;
+	border-radius:5px;
+	padding:5px;
+}

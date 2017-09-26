@@ -1,0 +1,232 @@
+
+
+input {
+	float:left;
+	width:100%;
+	margin:2px;
+}
+
+
+
+@media (orientation:landscape){
+	#gameplay {
+		width:70%;
+		float:left;
+	}
+
+	h1 {
+		text-shadow:3px 3px 4px #838a88;
+		margin-top:0;
+		text-align:center;
+		font-size:5vw;
+		color:#429E7F;
+	}
+}
+@media (orientation:portrait){
+	#gameplay {
+		width:100%;
+		float:left;
+	}
+
+	h1 {
+		text-shadow:1px 7px 7px #919191;
+		margin-top:0;
+		text-align:center;
+		font-size:9vw;
+		color:#429E7F;
+	}
+}
+
+@media (orientation:landscape){
+	button{
+		float:left;
+		width:65%;
+		background: linear-gradient(90deg, green, darkgreen);
+		color:white;
+		font-size:1.2vw;
+		padding:5px;
+		border:none;
+		border-radius:5px;
+	}
+}
+
+@media (orientation:portrait){
+	button{
+		float:left;
+		width:65%;
+		margin-left:15%;
+		background: linear-gradient(90deg, green, darkgreen);
+		color:white;
+		font-size:6vw;
+		padding:5px;
+		border:none;
+		border-radius:5px;
+		margin-bottom:10%;
+	}
+}
+
+button:hover{
+	background: linear-gradient(90deg,  darkgreen, green);
+}
+
+img{
+	width:100%;
+}
+
+#main{
+	width:80%;
+	margin-left:10%;
+}
+
+@media (orientation:landscape) {
+	.topSpacer{
+		display:block;
+		width:100%;
+		height:8vw;
+		float:left;
+
+	}
+
+}
+
+@media (orientation:portrait) {
+	.topSpacer{
+		display:block;
+		width:100%;
+		height:17vw;
+		float:left;
+
+	}
+
+}
+
+@media (orientation: landscape){
+	#wrong {
+		height:100%;
+		width:20%;
+		margin:0;
+		float:left;
+		margin-top:30px;
+	}
+
+	#wrong {
+	
+		margin-right:0;
+		color: red;
+		font-size: 2.99vw;
+		width:27%;
+		border:2px solid red;
+		float:right;
+		margin-top:5%;
+		margin-bottom:5%;
+		padding:10px;
+	}
+}
+
+@media (orientation: portrait){
+	#wrong {
+		height:100%;
+		width:100%;
+		margin:0;
+		float:left;
+		margin-top:30px;
+	}
+
+	#wrong {
+	
+		margin-right:0;
+		color: red;
+		font-size: 7vw;
+		width:100%;
+		border:2px solid red;
+		float:right;
+		margin-top:5%;
+		margin-bottom:5%;
+		padding:10px;
+	}
+}
+
+.guessLetter {
+	font-size:4vw;
+	margin:10px;
+	color:blue;
+
+}
+@media (orientation: landscape){
+	.guessLetter {
+		font-size:4vw;
+		margin:10px;
+		color:blue;
+	}
+
+	#guessed {
+		padding-left:50px;
+		margin-bottom:0px;
+		float:left;
+	}
+}
+
+@media (orientation: portrait){
+	#guessed {
+		/*padding-left:50px;*/
+		margin-bottom:0px;
+		float:left;
+	}
+	.guessLetter {
+		font-size:7vw;
+		margin:15px;
+		color:blue;
+
+	}
+}
+
+@media (orientation: landscape){
+	#remaining {
+		font-size:3vw;
+		margin-top:20px;
+		float:right;
+		width:30%;
+	}
+
+	.remaining{
+		margin:0 0;
+		width:24%;
+		float:left;
+		text-align:center;
+		padding-bottom:5px;
+		cursor:pointer;
+	}
+}
+@media (orientation: portrait){
+	#remaining {
+		font-size:8vw;
+		margin-top:20px;
+		float:right;
+		width:100%;
+	}
+
+	.remaining{
+		margin:0 0;
+		width:20%;
+		float:left;
+		text-align:center;
+		padding-bottom:5px;
+		cursor:pointer;
+	}
+}
+
+.remaining:hover {
+	color:#429E7F;
+}
+
+.invisible {
+	visibility:hidden;
+}
+
+.wrong{
+	margin:5px;
+	text-decoration: underline;
+
+
+}
+

@@ -1,0 +1,42 @@
+
+body{
+	
+}
+span{
+	color:blue;
+}
+
+#name{
+
+}
+
+a{
+	width:100%;
+	border-top:3px solid black;
+	position:absolute;
+	bottom:0;
+	text-align:center;
+	padding:30px;
+	text-decoration:none;
+	background:black;
+	color:white;
+	font-size:4vw;
+	font-family: 'Andada', serif;
+	font-weight:italic;
+
+}
+
+#main{
+	width:60%;
+	margin-left:10%;
+	margin-top:30%;
+	border-left:2px solid black;
+	padding-left:30px;
+	padding-top:25px;
+	padding-bottom:25px;
+	font-size:3.5vw;
+}
+
+font-family: 'Fenix', serif;
+font-family: 'Aref Ruqaa', serif;
+font-family: 'Andada', serif;

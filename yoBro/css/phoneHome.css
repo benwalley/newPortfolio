@@ -1,0 +1,147 @@
+
+body{
+	background:white;
+	font-family: 'Andada', serif;
+	height:100%;
+
+
+}
+
+html{
+	    position: relative;
+    min-height: 100%;
+}
+h1{
+	width:100%;
+	text-align:center;
+	font-size:8vw;
+	padding:120px;
+	font-family: 'Aref Ruqaa', serif;
+	background-image:url("http://apod.nasa.gov/apod/image/1607/OrionNebula_ESO_4000.jpg");
+	margin:0;
+	background-size:cover;
+	color:white;
+	text-shadow:2px 2px 2px black;
+}
+hr{
+	color:black;
+	border-top:1px solid #2D882D;
+	margin-top:0;
+	width:80%;
+}
+
+.links{
+	
+
+	color:black;
+	padding:10px;
+	text-align:center;
+	float:left;
+	font-size:3vw;
+	background:linear-gradient( white 30%, grey ); ;
+	font-family: 'Fenix', serif;
+
+}
+
+.links:hover{
+	text-decoration:none;
+	background:linear-gradient(white 40%, #545454); ;
+}
+
+
+.container {
+	float:left;
+}
+
+#links{
+	width:100%;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+}
+
+#videos{
+	width:100%;
+	padding:15px;
+	font-size:3vw;
+	text-align:center;
+	float:left;
+	margin-top:30px;
+}
+
+#contact{
+	width:100%;
+	border-top:3px solid grey;
+	text-align:center;
+	margin-bottom:0;
+	padding:10px;
+	display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    float:left;
+    font-size:3vw;
+}
+
+.vid{
+	margin:10px;
+	height:450px
+
+
+
+}
+#space{
+	height:90px;
+}
+#jokes{
+	border:2px solid #2D882D;
+	border-radius:10px;
+	margin-top:50px;
+	margin-bottom:50px;
+	padding:12px;
+	box-shadow:4px 4px 5px grey;
+	background:#E6FFE6;
+	font-family: 'Fenix', serif;
+	font-size:1.6vw;
+}
+
+#jokeTitle{
+	color:#882D60;
+	font-size:6vw;
+	text-align:center;
+	text-shadow:2px 2px 2px black;
+}
+
+#first{
+ 
+
+}
+
+#second{
+/*	margin-top:30px;
+	border-left:3px solid black;*/
+	padding:15px;
+	padding-left:40px;
+	font-size:1.2vw;
+	display:none;
+}
+
+#blogTitle{
+	font-size:3vw;
+	text-align:center;
+	width:100%;
+}
+
+.container-fluid{
+	padding-right:0;
+	padding-left:0;
+/*	background:linear-gradient( 90deg, grey , white 50%, grey); 
+*/
+}
+
+font-family: 'Fenix', serif;
+font-family: 'Aref Ruqaa', serif;
+font-family: 'Andada', serif;
+
+

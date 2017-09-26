@@ -1,0 +1,139 @@
+body {
+	background:linear-gradient(#ff9955, #D64309);
+	margin:0;
+	font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+	text-decoration: underline;
+	font-family: 'Libre Baskerville', serif;
+}
+
+a {
+	float:left;
+	width:40%;
+	font-size:1.3vw;
+	padding:5%;
+	text-align: center;
+	padding:0, auto;
+	color:#cc0000;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top:1.5%;
+	font-weight: bold;
+	font-family: 'Libre Baskerville', serif;
+}
+
+a:hover{
+	background:linear-gradient(#069357, #11bF75);
+	border-radius: 7px;
+	font-family: 'Libre Baskerville', serif;
+}
+
+.pickButton {
+	height:27.1px;
+	width:50px;
+	position:relative;
+	margin-bottom:0;
+	float:left;
+	border:none;
+	background:none;
+	font-weight:bold;
+}
+
+.intros {
+	font-size:3.1vw;
+	text-align: center;
+	color:#D64309;
+	font-family: 'Libre Baskerville', serif;
+}
+
+.pickButton:hover {
+	background:#00AF64;
+	border-radius:3px;
+}
+
+.backgroundReset {
+	background:linear-gradient(#ff9955, #D64309);
+}
+
+.date {
+	color:blue;
+	font-size:1vw;
+	text-decoration:underline;
+	font-style:italic;
+	float:left;
+}
+
+.author {
+	float:right;
+}
+	
+.post {
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#title {
+	background:#15ae64;
+	width:100%;
+	text-align:left;
+	padding-top:3%;
+	padding-bottom:5%;
+	font-size:4.6vw;
+	margin:0;
+	margin-top:0;
+	border-bottom:10px solid black;
+	padding-left:4%;
+	font-family: 'Libre Baskerville', serif;
+
+}
+
+#main {
+	margin:5% 15%;
+	border:5px solid black;
+	border-radius:15px;
+	float:left;
+	padding:3%;
+	background:linear-gradient(#eeeeff, #aaaabb);
+	font-size:1.2vw;
+	font-family: 'Libre Baskerville', serif;
+	padding-bottom:1%;
+}
+
+#links {
+	float:right;
+	padding-right:3%;
+	width:40%;
+	font-family: 'Libre Baskerville', serif;
+}
+
+#colorPicker {
+	margin:15px;
+	margin-left:15%;
+	width:20%;
+	height:50px;
+	float:left;
+	margin-right:0;
+}
+
+#buttonsIn {
+	width:60px;
+	float:left;
+	padding-top:15px;
+	margin-bottom:0;
+	margin-left:5px;
+}
+
+#extras {
+	margin-top:10%;
+}
+
+#newPost {
+	width:80%;
+	margin-left:10%;
+	height:100px;
+
+}
+
+

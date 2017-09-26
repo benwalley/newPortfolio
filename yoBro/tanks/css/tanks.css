@@ -1,0 +1,226 @@
+canvas{
+	width:80%;
+	height:400px;
+	background:lightblue;
+	float:left;
+	margin-left:10%;
+	border:2px solid black;
+}
+html{
+
+}
+body{
+		background: linear-gradient(180deg,black, darkred);
+
+}
+
+h1{
+	float:left;
+	width:100%;
+	text-align:center;
+	padding:20px;
+	color:white;
+	
+}
+
+.fireButtons{
+	width:100%;
+	
+	margin-bottom:50px;
+	background:grey;
+	color:white;
+	text-align:center;
+	border:none;
+	padding:5px;
+	border:1px solid black;
+	border-radius:15px;
+	margin-top:3px;
+	font-size:2vw;
+	color:black;
+	font-weight:bold;
+	outline:none;
+
+}
+
+.fireButtons:hover{
+	background-color:red;
+}
+
+
+
+
+#power{
+	width:100%;
+
+}
+
+#range{
+	margin-bottom:50px;
+}
+
+/*#lifeBars{
+	width:80%;
+	margin-left:10%;
+	float:left;
+
+}*/
+
+
+
+.health{
+	width:80%;
+	float:left;
+	margin:20px;
+	border:2px solid black;
+	border-radius:6px;
+	height:20px;
+	margin-left:10%;
+}
+
+#health1{
+	float:left;
+
+}
+
+#health2{
+	float:left;
+}
+
+h2{
+	width:100%;
+	text-align:center;
+}
+
+select{
+	background:grey;
+	color:black;
+	height:100%;
+
+}
+
+#toolbar{
+	width:100%;
+	background:grey;
+	height:30px;
+	float:left;
+	border-radius:5px;
+}
+
+#lifeBars{
+
+}
+
+#big{
+	
+}
+
+.powerNum{
+	font-size:1.3vw;
+}
+
+.power{
+	float:right;
+	border:none;
+}
+
+#buying{
+	/*display:none;*/
+	width:80%;
+	margin-left:10%;
+	color:white;
+	
+
+
+
+}
+
+.buying{
+	width:80%;
+	height:50px;
+	margin-top:20px ;
+	margin-bottom:20px ;
+	margin-left:10%;
+	border-radius:10px;
+	color:black;
+	font-size:1.5vw;
+	font-family: 'PT Serif', serif;
+
+
+}
+
+#buyContainer{
+/*	display:none;*/
+
+	padding-bottom:100px;
+}
+
+#money{
+	font-size:2vw;
+	color:white;
+	margin-left:10%;
+}
+
+#buyTitle{
+	font-size:3vw;
+	padding:30px;
+}
+
+hr{
+	color:white;
+	width:60%;
+}
+
+.buying:hover{
+	background-color:grey;
+}
+
+.cost{
+	float:right;
+	padding-right:30px;
+}
+
+.data{
+	border-right:2px solid black;
+	padding:5px;
+}
+
+#powerDiv{
+	border:none;
+}
+
+.white{
+	color:#da0303;
+}
+
+#angle{
+	width:80%;
+	float:left;
+	margin:20px;
+	margin-left:10%;
+
+}
+
+#arrows{
+
+}
+
+.arrows{
+	background:lightgrey;
+	margin:5px;
+	width:10%;
+	padding:5px;
+	float:left;
+	margin-left:10%;
+	margin-right:10%;
+
+}
+
+.blank{
+	background:none;
+	padding-top:10%;
+
+}
+
+#forSmall{
+	display:none;
+}

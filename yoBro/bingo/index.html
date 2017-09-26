@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bingo!</title>
+	<link rel="stylesheet" type="text/css" media="screen and (min-device-width: 451px)" href="css/bingo.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 450px)" href="css/bingoPhones.css">
+	<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<body>
+
+	<h1 id = "h1">Play Bingo</h1>
+<div id = "wholeOptions">
+	<span id = "cardNum">
+
+		<button class = "opt" id = "1Card">1 Card</button>
+		<button class = "opt" id = "2Card">2 Card</button>
+		<button class = "opt" id = "3Card">3 Card</button>
+		<button class = "opt" id = "4Card">4 Card</button>
+		<button class = "opt" id = "5Card">5 Card</button>
+	</span>
+	<span id = "gameOptions">
+		<button class = "gameButtons opt" id = "start">start</button>
+		<button class = "gameButtons opt" id= "pause">Pause</button>				
+		<button class = "gameButtons opt" id = "restart">Restart</button>
+	</span>
+
+</div>
+<div class = "container">
+	<div class = "row">
+	<div class = "numDisplay col-lg-4 col-md-4 col-sm-4 col-xs-12" >
+		<div id = "nu">
+		<div id = "pickedLetterNumber"></div>
+		<p id = "instructions">press start to begin</p>
+		</div>
+		<div id = "ranges">
+		<p>Speed control</p>
+		<span id = "right">slow</span>
+		<span id = "left">fast</span>
+		<input id = "range" type="range" name="points" id="points" value="5" min="1" max="20">
+		</div>
+
+	</div>
+
+
+<div class = "boards board col-lg-4 col-md-4 col-sm-4 col-xs-6" >
+		<div class = "topRow topSquare">B</div>
+		<div class = "topRow  topSquare">I</div>
+		<div class = "topRow topSquare">N</div>
+		<div class = "topRow topSquare">G</div>
+		<div class = "topRow topSquare">O</div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+		<div class = "spot square"></div>
+	</div>
+<div class = "boards col-lg-4 col-md-4 col-sm-4  col-xs-6" >
+		<div class = "topRow"></div>
+		<div class = "topRow"></div>
+		<div class = "topRow"></div>
+		<div class = "topRow"></div>
+		<div class = "topRow"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+	</div>
+	</div>
+	<div class = "row">
+	<div class = "boards col-lg-4 col-md-4 col-sm-4  col-xs-6" >
+		<div class = "topRow"></div>
+		<div class = "topRow"></div>
+		<div class = "topRow"></div>
+		<div class = "topRow"></div>
+		<div class = "topRow"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+	</div>
+<div class = "boards c0l-lg-4 col-md-4 col-sm-4 col-xs-6" >
+		<div class = "topRow"></div>
+		<div class = "topRow"></div>
+		<div class = "topRow"></div>
+		<div class = "topRow"></div>
+		<div class = "topRow"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+	</div>
+<div class = "boards col-lg-4 col-md-4 col-sm-4 col-xs-6" >
+		<div class = "topRow"></div>
+		<div class = "topRow"></div>
+		<div class = "topRow"></div>
+		<div class = "topRow"></div>
+		<div class = "topRow"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+		<div class = "spot"></div>
+	</div>
+	</div>
+	</div>
+<!-- 		<p  id = "hint"><em>    hint! If playing multiple cards on a mobile device, turn horizontal</em></p>
+ -->
+
+
+<script type="text/javascript" src = "js/bingo.js"></script>
+</body>
+</html>
